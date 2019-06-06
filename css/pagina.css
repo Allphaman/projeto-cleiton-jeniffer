@@ -1,3 +1,6 @@
+/* inicio de codigo - definicao das grids */
+
+
 body {
     margin: 0;
     display: grid;
@@ -6,57 +9,112 @@ body {
                             'div div div div'
                             'div-icon div-icon div-icon div-icon'
                             'footer footer footer footer';
-    grid-template-rows: 70vh 40vh 20vh 20vh;
+    grid-template-rows: 100vh 45vh 20vh 20vh;
 
 }
 
+/* fim de codigo - definicao das grids */
+
+
+/* inicio da secao com a imagem de fundo banner */
 
 section{
+    
      grid-area: section;
     background-color: brown;
     background-image: url(../img/banner.png);
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    
-    
+
 }
 
-.icons{
-    width: 100%;
-    height: 110px;
-    background-color: green;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
+/* inicio de codigo - mao com celular*/
+.hand {
+    margin-left: 100px;
+    margin-bottom: -120px;
+}
 
+/* fim de codigo - mao com celular */
+
+/* inicio de codigo div icons contendo os icones IOS ANDROID E WINDOWS */
+
+.icons {
+    width: 20%;
+    height: 200px;
+    background-color: ; 
     color: white;
+   display: inline-block;
+    justify-content: center;
+    align-items: center
+}
+
+
+#IOS {
     
-
-}
-.icons:nth-child(1){
-    line-height: 0.15px;
-}
-
-
-.icons img {
-    width: 25px;
+    width: 44px;
+    height: 44px;
+    background-color: red;
+    opacity: 0.5;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
     
-    margin: 0; 
+    
+  
+}
+#ANDROID{
+    
+      width: 40px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 100%;
+    display: flex;
+     justify-content: center;
+    align-items: center
+    
+    
+    
+    
+}
+#WINDOWS{
+    
+     width: 45px;
+    height: 45px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 100%;
+    display: flex;
+     justify-content: center;
+    align-items: center
+   
 }
 
+/* fim de codigo div icons contendo os icones IOS ANDROID E WINDOWS */
 
-section img {
-    margin-right: 200px;
+/* fim de secao com imagem de fundo banner */
+
+/*  inicio de codigo icons contendo h1*/
+.icons h1{
+    font-size: 30px;
+    line-height: 3px;
 }
+/*  fim de codigo icons contendo h1*/
+
+
+/* inicio codigo imgicon */
 
 
 
 
 
+/* fim de codigo imgicon */
 
+
+/* inicio de codigo aside */
 
 aside{
     grid-area: aside;
@@ -64,13 +122,74 @@ aside{
     display: flex;
     justify-content: center;
     align-items: center;
+   
+    
+} 
+.design {
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+.design img{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+
+#config{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+ 
+   
+}
+
+#estrela {
+    
+     height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+
+#mundo {
+    
+     height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
     
 }
 
-.design {
-   
-      
-}
+/* fim de codigo aside */
+
+
 
 
 #video{
