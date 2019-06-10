@@ -9,7 +9,7 @@ body {
                             'div div div div'
                             'div-icon div-icon div-icon div-icon'
                             'footer footer footer footer';
-    grid-template-rows: 100vh 45vh 20vh 20vh;
+    grid-template-rows: 90vh 45vh 20vh 20vh;
 
 }
 
@@ -24,17 +24,28 @@ section{
     background-color: brown;
     background-image: url(../img/banner.png);
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    border-top: 10px solid #2dcc70;
+  
 }
+
+section #divTexto {
+    width: 500pt;
+    height: 80%;
+    background-color: red;
+}
+
+section #divImagem {
+    width: 480px;
+    height: 80%;
+    background-color: red;
+}
+
+
+
+
 
 /* inicio de codigo - mao com celular*/
-.hand {
-    margin-left: 100px;
-    margin-bottom: -120px;
-}
+
 
 /* fim de codigo - mao com celular */
 
@@ -148,15 +159,21 @@ aside{
 
 }
 
+.icons span {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #config{
     height: 100px;
     width: 100px;
-    background-color: green;
+    background-color: #2dcc70;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.5;
+    
  
    
 }
@@ -165,12 +182,12 @@ aside{
     
      height: 100px;
     width: 100px;
-    background-color: green;
+    background-color: #2dcc70;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.5;
+
 }
 
 
@@ -178,12 +195,12 @@ aside{
     
      height: 100px;
     width: 100px;
-    background-color: green;
+    background-color: #2dcc70;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.5;
+    
     
 }
 
